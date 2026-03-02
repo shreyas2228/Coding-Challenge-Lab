@@ -2,13 +2,12 @@
 using namespace std;
 
 int main(){
-    int reminder,num;
+    int num;
     int count = 0;
     cout<<"enter a number"<< endl;
     cin>>num;
 
     while(num != 0){
-        reminder = num%10;
         num = num/10;
         count++;
     }
